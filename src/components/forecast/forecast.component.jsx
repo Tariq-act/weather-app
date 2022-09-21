@@ -25,8 +25,6 @@ const Forecast = ({ data }) => {
     WEEK_DAY.slice(0, dayInAWeek)
   );
 
-  console.log(forecastDays);
-
   return (
     <>
       <div className='title'>Daily</div>
