@@ -17,10 +17,10 @@ const Page = () => {
     try {
       setLoading(true);
       const current = await fetch(
-        `${process.env.REACT_APP_URL}/weather?q=${searchData}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${searchData}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
       );
       const forecast = await fetch(
-        `${process.env.REACT_APP_URL}/forecast?q=${searchData}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
+        `http://api.openweathermap.org/data/2.5/forecast?q=${searchData}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
       );
       setLoading(false);
 
