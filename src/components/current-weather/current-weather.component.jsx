@@ -45,8 +45,3 @@ const CurrentWeather = ({ data }) => {
 };
 
 export default CurrentWeather;
-
-// https://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
-// https://api.openweathermap.org/data/2.5/weather?q=London&appid=38068b1b211612793b9646e869809942
-
-// http://api.openweathermap.org/data/2.5/forecast?q=London&appid=38068b1b211612793b9646e869809942
