@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![alt text](src\assets\Untitled.png)
+![alt text](https://github.com/Tariq-act/weather-app/blob/master/src/assets/Untitled.png)
 
 The design was created by myself(original)
 
