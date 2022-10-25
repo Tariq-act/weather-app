@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Simple Weather App
 
 ![alt text](https://github.com/Tariq-act/weather-app/blob/master/src/assets/Untitled.png)
 
